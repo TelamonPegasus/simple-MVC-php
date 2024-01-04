@@ -11,6 +11,7 @@ class CoreHelper
     if(!is_file(PATH_CONTROLLERS . "{$controller}/{$controller}Controller.php"))
       return false;
     return true;
+    
   }
 
   public static function validateMethodController($controller, $method)
